@@ -1,6 +1,5 @@
 var cx = prompt("whats your width?");
 var cy = prompt("whats your hight?");
-var floppymode = prompt("do you want to have a sesure?")
 var eb = 10
 var x = 1;
 var xvol = 4;
@@ -13,9 +12,6 @@ function setup() {
 
 function draw() {
   
-  if(floppymode == 'yes'||floppymode == 'Yes'||floppymode == 'sure'){
-    background(Math.floor(Math.random()*300),Math.floor(Math.random()*300),Math.floor(Math.random()*300))
-  }
   background(200)
   if(x <= 0){
     xvol -= xvol*2;
